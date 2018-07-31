@@ -1,0 +1,113 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	h1{
+		height: 18px;
+		width: 85%;
+	}
+	p{
+		height: 7px;
+	}
+		/*header-start*/
+	.logo-img{
+		height: 50px;
+		width:50px;
+	}
+
+	.menu ul li{
+		height: 15px;
+		width: 35px;
+	}
+	/*header-end*/
+	/*banner-start*/
+
+	.b-img{
+		height: 250px;
+	}
+	/*banner-end*/
+	/*service-start*/
+
+	.s-img{
+		height: 200px;
+	}
+	/*service-end*/
+	/*footer-top-start*/
+	.ft-contant h1{
+		height: 15px;
+	}
+
+	/*footer-top-end*/
+
+	/*footer-bottom-start*/
+	.fb-contant p{
+		height: 4px;
+	}
+	/*footer-bottom-end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	h1{
+		height: 20px;
+	}
+	p{
+		height: 8px;
+		margin-bottom: 8px;
+	}
+		/*header-start*/
+	.logo-img{
+		height: 60px;
+		width:60px;
+	}
+
+	.menu ul li{
+		height: 20px;
+		width: 70px;
+	}
+	/*header-end*/
+	/*banner-start*/
+
+	.b-img{
+		height: 260px;
+	}
+	/*banner-end*/
+	/*service-start*/
+
+	.s-img{
+		height: 250px;
+	}
+	/*service-end*/
+	/*footer-top-start*/
+	.ft-contant h1{
+		height: 15px;
+	}
+
+	/*footer-top-end*/
+
+	/*footer-bottom-start*/
+	.fb-contant p{
+		height: 5px;
+	}
+	/*footer-bottom-end*/
+
+}
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
